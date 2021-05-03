@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedido", "Pedido\Pedido.csproj", "{E832B790-943A-41B0-8B35-5A4975E5AFDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{1591CAE1-9730-43DA-B098-DCE540B5CE89}"
+	ProjectSection(SolutionItems) = preProject
+		Order.cs = Order.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enums", "Enums", "{39F09DC2-D420-4B42-8D10-F1F1422A41DB}"
+	ProjectSection(SolutionItems) = preProject
+		OrderStatus.cs = OrderStatus.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E832B790-943A-41B0-8B35-5A4975E5AFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E832B790-943A-41B0-8B35-5A4975E5AFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E832B790-943A-41B0-8B35-5A4975E5AFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E832B790-943A-41B0-8B35-5A4975E5AFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39F09DC2-D420-4B42-8D10-F1F1422A41DB} = {1591CAE1-9730-43DA-B098-DCE540B5CE89}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2E159E6-B9AD-454D-8A86-CA5F1786290A}
+	EndGlobalSection
+EndGlobal
